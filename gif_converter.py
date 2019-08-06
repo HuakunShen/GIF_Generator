@@ -15,11 +15,11 @@ def makeGIF(source_full_path, target_format):
 
 def printHelpMessage():
     print("To make a GIF from a Video, run the following code in terminal")
-    print("python -s source_input")
+    print("python -s source_file")
     print("or")
-    print("python --source source_input")
+    print("python --source source_file")
+    print("source_file can be just a filename or the absolute path of the source file")
     print("If python doesn't work, try python3 and make sure python is installed")
-    print("Make sure the source video file is in this directory")
     print("Also, make sure package imageio and imageio-ffmpeg are installed with pip by running")
     print("pip install imageio imageio-ffmpeg")
 
