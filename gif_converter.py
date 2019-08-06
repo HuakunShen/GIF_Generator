@@ -11,7 +11,7 @@ def makeGIF(source_full_path, target_format):
     for frames in reader:
         writer.append_data(frames)
     writer.close()
-
+    
 
 def printHelpMessage():
     print("To make a GIF from a Video, run the following code in terminal")

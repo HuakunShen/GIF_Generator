@@ -4,7 +4,14 @@ Convert a video file (e.g. mp4) to a GIF image.
 
 ## Prerequisites
 
-* python3
+* **python3**
+
+* **ffmpeg**
+  If on linux, you may need to install `ffmpeg`
+
+  ```shell
+  sudo apt install ffmpeg
+  ```
 
 * A video file in current directory
 
